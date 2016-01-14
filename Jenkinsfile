@@ -36,7 +36,7 @@ node {
 }
 
 def mvn(args) {
-    sh "export JAVA_HOME=/opt/jdk1.7.0_79;${tool 'M3'}/bin/mvn ${args}"
+    sh "export JAVA_HOME=/opt/jdk1.8.0_45;${tool 'M3'}/bin/mvn ${args}"
 }
 
 def runTests(duration) {
